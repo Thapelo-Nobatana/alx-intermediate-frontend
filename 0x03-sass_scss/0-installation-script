@@ -1,0 +1,4 @@
+I have installed sass on my CMD command line, but I am not sure how to create a script to automate the installation process. Can you provide an example of a simple installation script for Sass using npm?
+Sure! Below is an example of a simple installation script for Sass using npm. You can create a file named `install-sass.js` and include the following code: 
+```javascript
+const { exec } = require('child_process');  
